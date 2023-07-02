@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  background-color: rgb(250, 251, 252);
+  padding: 1rem;
   min-height: 100vh;
 }
-
+.carcard{
+  background-color: rgba(245, 131, 24, 0.932);
+  height:'380px';
+  margin-Top:'10px'
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -170,7 +174,9 @@
     position: fixed;
     width: 100%;
   }
-
+.car-card {
+  background:'#F8F8FF'
+}
   .description p {
     align-items: center;
     inset: 0 0 auto;
